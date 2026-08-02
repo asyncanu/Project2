@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        :root{
+            --primary-color: brown;
+            --custom-width:330px;
+        }
+        .container{
+            background-color:beige;
+            border:2px solid black;
+            height:650px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .box{
+            border:1px solid var(--primary-color);
+            background-color:lightgreen;
+            width:var(--custom-width);
+            height:330px;
+            margin:5px;
+            padding:5px;
+            /* box-shadow:10px 15px brown; */
+            /* box-shadow:10px 15px 50px brown; */
+            /* box-shadow:10px 15px 5px 20px brown; */
+            /* box-shadow:inset 10px 15px brown; */
+            /* box-shadow: 10px 15px red, 15px 8px green; */
+            /* box-shadow: -10px -60px var(--primary-color); */
+                } 
+                
+            img{
+                width:110px;
+            }
+
+            #head1{
+                text-shadow:2px 3px 2px white;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="img4.jpg"/>
+            <h2 id="head1">Happy Friendship Day</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In iste quos neque blanditiis deserunt accusamus. Voluptatem quibusdam ab quasi? Animi saepe, perspiciatis laudantium veniam perferendis deserunt.
+            </p>
+
+        </div>
+    </div>
+</body>
+</html>
